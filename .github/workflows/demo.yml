@@ -28,8 +28,8 @@ jobs:
       - name: Upload afrtifacts
         uses: actions/upload-artifact@v4
         with:
-          name: dist-files
-          path: /01 Starting Project/dist
+          name: 'dist-files'
+          path: dist
 
   deploy:
     needs: build
